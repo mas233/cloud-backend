@@ -3,7 +3,7 @@ spring:
   datasource:
     driver-class-name: org.postgresql.Driver
 
-    url: jdbc:postgresql://10.0.0.108/hci_server
+    url: jdbc:postgresql://localhost:5432/hci_server
     username: root
     password: Post37gres05
 #    url: jdbc:postgresql://localhost:5432/hci_server
