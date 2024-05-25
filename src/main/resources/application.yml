@@ -1,0 +1,25 @@
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+
+    url: jdbc:postgresql://115.159.151.142:5432/hci_server
+    username: postgres
+    password: tqxkedjerry
+#    url: jdbc:postgresql://localhost:5432/hci_server
+    hikari:
+      max-lifetime: 120000
+  servlet:
+      multipart:
+        max-file-size: 100MB
+        max-request-size: 200MB
+  jpa:
+    show-sql: true
+    database: postgresql
+    hibernate:
+      ddl-auto: update
+    open-in-view: true
+# change the level of the log --lds
+
+server:
+  port: 9090
